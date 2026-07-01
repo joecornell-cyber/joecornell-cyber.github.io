@@ -27,17 +27,18 @@
         <p class="eyebrow">Cybersecurity Analyst • Detection Engineering • Offensive Security</p>
         <h1>Building practical security detections, labs, and offensive security workflows.</h1>
         <p class="hero-text">
-          I’m a cybersecurity professional focused on detection engineering, threat hunting,
+          I'm a cybersecurity professional focused on detection engineering, threat hunting,
           web application security, and hands-on offensive security research.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="button primary">View Projects</a>
           <a href="#contact" class="button secondary">Connect</a>
+          <a href="assets/img/resume.pdf" class="button secondary" download>Download Resume</a>
         </div>
       </div>
 
       <div class="hero-card">
-        <div class="avatar-placeholder">JC</div>
+        <img src="assets/img/headshot.jpeg" alt="Headshot of Joe Cornell" class="profile-photo" />
         <h2>Joe Cornell</h2>
         <p>Security Analyst</p>
         <ul>
@@ -59,29 +60,60 @@
       </p>
     </section>
 
-    <section id="experience" class="section">
-      <h2>Professional Experience</h2>
+ <section id="experience" class="section">
+  <h2>Professional Experience</h2>
 
-      <div class="timeline-card">
-        <h3>Security Analyst</h3>
-        <p class="muted">Binary Defense • 2026 - Present</p>
-        <ul>
-          <li>Investigate security alerts and validate suspicious activity across endpoint and SIEM telemetry.</li>
-          <li>Build and refine detection logic, automation workflows, and alert triage processes.</li>
-          <li>Develop hands-on security projects focused on detection engineering and adversary behavior.</li>
-        </ul>
-      </div>
+  <div class="timeline-card experience-card">
+    <img src="assets/img/binary_defense.jpeg" alt="Binary Defense logo" class="company-logo" />
+    <div>
+      <h3>Security Analyst</h3>
+      <p class="muted">Binary Defense • Remote — Minneapolis-Saint Paul Metro, MN • Dec 2025 - Present</p>
+      <ul>
+        <li>Dedicated Security Analyst supporting a Fortune 1000 client, providing incident response, Splunk SIEM operations, detection tuning, and security engineering support within a managed security services environment.</li>
+        <li>Develop and maintain Python-based SOAR automations leveraging REST and GraphQL APIs and Splunk data sources to automate investigations, alert enrichment, remediation workflows, and operational reporting.</li>
+        <li>Designed automation that queries Splunk activity logs and enterprise APIs to identify inactive users, remove stale USB device exclusions after defined inactivity thresholds, and generate automated audit reports — eliminating daily manual review.</li>
+      </ul>
+    </div>
+  </div>
 
-      <div class="timeline-card">
-        <h3>Information Security Analyst</h3>
-        <p class="muted">Menards • 2025</p>
-        <ul>
-          <li>Supported SIEM content, dashboards, alerting, and threat investigation workflows.</li>
-          <li>Worked with detection engineering, incident response, vulnerability data, and security operations.</li>
-          <li>Contributed to process improvements and practical security documentation.</li>
-        </ul>
-      </div>
-    </section>
+  <div class="timeline-card experience-card">
+    <img src="assets/img/menards.jpeg" alt="Menards logo" class="company-logo" />
+    <div>
+      <h3>Information Security Analyst</h3>
+      <p class="muted">Menards • On Site — Eau Claire, WI • Oct 2023 - Dec 2025</p>
+      <ul>
+        <li>Supported enterprise SIEM operations across Splunk Enterprise and CrowdStrike NG-SIEM during the organization's migration, building dashboards, alerts, reports, and detection content while maintaining cross-environment visibility.</li>
+        <li>Created Splunk macros, field extractions, and regex parsing to normalize OSSEC/Wazuh telemetry, improving search efficiency, dashboard accuracy, and detection reliability during the CrowdStrike NG-SIEM migration.</li>
+        <li>Engineered an internal Breach and Attack Simulation (BAS) framework in Python and PowerShell that validated SIEM detections and improved alert fidelity.</li>
+        <li>Led quarterly threat intelligence initiatives aligned with the MITRE ATT&CK framework, closing detection gaps and strengthening resilience against APTs through continuous control testing.</li>
+        <li>Streamlined PCI compliance by designing repeatable evidence-collection processes, reducing time spent on annual assessments.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-card experience-card">
+    <img src="assets/img/uw_stout.jpeg" alt="University of Wisconsin-Stout logo" class="company-logo" />
+    <div>
+      <h3>B.S. Cybersecurity</h3>
+      <p class="muted">University of Wisconsin-Stout • 2025</p>
+      <ul>
+        <li>Completed a Bachelor of Science in Cybersecurity with a minor in Information Security Management.</li>
+        <li>Built a foundation across networking, security operations, risk management, and offensive security.</li>
+      </ul>
+    </div>
+  </div>
+
+<div class="timeline-card experience-card">
+  <img src="assets/img/anoka_ramsey_cc.jpeg" alt="Anoka Ramsey Community College logo" class="company-logo" />
+  <div>
+    <h3>A.S. Cybersecurity</h3>
+    <p class="muted">Anoka Ramsey Community College • 2024</p>
+    <ul>
+      <li>Completed an Associate of Science in Cybersecurity, building foundational skills in networking, systems administration, and security fundamentals.</li>
+    </ul>
+  </div>
+</div>
+</section>
 
     <section id="projects" class="section">
       <h2>Projects</h2>
@@ -92,7 +124,7 @@
             Detection engineering content, threat hunting queries, and SIEM analytics across
             CrowdStrike Falcon LogScale, Splunk, and Microsoft Sentinel.
           </p>
-          <a href="#" class="text-link">View Repository →</a>
+          <a href="https://github.com/joecornell-cyber/detection-engineering" class="text-link" target="_blank" rel="noopener noreferrer">View Repository →</a>
         </article>
 
         <article class="project-card">
@@ -101,7 +133,7 @@
             Structured web application testing methodology covering enumeration, authentication,
             API testing, SQLi, XSS, SSRF, SSTI, XXE, file upload, and reporting workflows.
           </p>
-          <a href="#" class="text-link">View Repository →</a>
+          <a href="https://github.com/joecornell-cyber/web-app-pentest-playbook" class="text-link" target="_blank" rel="noopener noreferrer">View Repository →</a>
         </article>
 
         <article class="project-card">
@@ -110,7 +142,7 @@
             Planned internal pentesting methodology focused on Active Directory enumeration,
             privilege escalation, pivoting, credential hunting, and OSCP preparation.
           </p>
-          <a href="#" class="text-link">View Repository →</a>
+          <a href="https://github.com/joecornell-cyber/joecornell-cyber" class="text-link" target="_blank" rel="noopener noreferrer">View GitHub Portfolio →</a>
         </article>
 
         <article class="project-card">
@@ -124,36 +156,89 @@
       </div>
     </section>
 
-    <section id="certifications" class="section">
-      <h2>Certifications</h2>
-      <div class="tag-list">
-        <span>Security+</span>
-        <span>CySA+</span>
-        <span>Blue Team Level 1</span>
-        <span>PJPT</span>
-        <span>HTB CWES</span>
-        <span>PNPT - Planned</span>
-        <span>CPTS - Planned</span>
-        <span>OSCP - Planned</span>
-      </div>
-    </section>
+<section id="certifications" class="section">
+  <h2>Certifications</h2>
+  <p>
+    Industry-recognized certifications and hands-on credentials that support my work in
+    detection engineering, security operations, and offensive security.
+  </p>
+  <div class="cert-grid">
+    <a href="https://www.credly.com/earner/earned/badge/de594da1-4955-48a6-bae6-5418af030b66" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/cwes.png" alt="HTB CWES badge" />
+      <h3>HTB CWES</h3>
+      <p>Issued by Hack The Box • Jun 2026</p>
+      <span>View Credential →</span>
+    </a>
 
-    <section id="writing" class="section">
-      <h2>Writing</h2>
-      <p>
-        I publish technical content focused on detection engineering, SIEM development,
-        offensive security methodology, and practical cybersecurity workflows.
-      </p>
-      <a href="#" class="button secondary">Read on Medium</a>
-    </section>
+    <a href="https://certified.tcm-sec.com/c0b79772-cf3a-4bc6-82c6-5462af210811#acc.2IZRWSud" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/pjpt.png" alt="Practical Junior Penetration Tester badge" />
+      <h3>PJPT</h3>
+      <p>Issued by TCM Security • Jul 2025</p>
+      <span>View Credential →</span>
+    </a>
+
+    <a href="https://www.credly.com/earner/earned/badge/f76b465d-4fe5-4b94-a63e-af68cf70d4b7" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/sal1.png" alt="TryHackMe SAL1 badge" />
+      <h3>Security Analyst Level 1</h3>
+      <p>Issued by TryHackMe • Mar 2025</p>
+      <span>View Credential →</span>
+    </a>
+
+    <a href="https://www.credly.com/earner/earned/badge/4a4e850e-d2dd-4c58-9467-9677b016c17a" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/btl1.png" alt="Blue Team Level 1 badge" />
+      <h3>Blue Team Level 1</h3>
+      <p>Issued by Security Blue Team • Oct 2024</p>
+      <span>View Credential →</span>
+    </a>
+
+    <a href="https://www.credly.com/earner/earned/badge/5878248d-95fc-4b4e-abdc-5acff6796712" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/cysa.png" alt="CompTIA CySA+ badge" />
+      <h3>CompTIA CySA+</h3>
+      <p>Issued by CompTIA • Aug 2024</p>
+      <span>View Credential →</span>
+    </a>
+
+    <a href="https://www.credly.com/earner/earned/badge/d3cd4a91-4255-4cb9-aafd-25a7ab4a01ae" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/splunk.png" alt="Splunk Core Certified User badge" />
+      <h3>Splunk Core Certified User</h3>
+      <p>Issued by Splunk • Jun 2024</p>
+      <span>View Credential →</span>
+    </a>
+
+    <a href="https://www.credly.com/earner/earned/badge/4dd77be9-c251-4286-9d91-08a1fff09745" class="cert-card" target="_blank" rel="noopener noreferrer">
+      <img src="assets/img/securityplus.png" alt="CompTIA Security+ badge" />
+      <h3>CompTIA Security+</h3>
+      <p>Issued by CompTIA • Mar 2024</p>
+      <span>View Credential →</span>
+    </a>
+  </div>
+</section>
+
+<section id="writing" class="section">
+  <h2>Writing</h2>
+  <p>
+    I publish technical content focused on detection engineering, SIEM development,
+    offensive security methodology, and practical cybersecurity workflows.
+  </p>
+
+  <div class="article-feature">
+    <img src="assets/img/mitre.png" alt="MITRE ATT&CK framework" class="article-thumb" />
+    <div>
+      <p class="muted">Featured article</p>
+      <a href="https://medium.com/@joe88cornell/a-practical-guide-to-detection-engineering-in-crowdstrike-ng-siem-25931f1a0120" class="text-link" target="_blank" rel="noopener noreferrer">A Practical Guide to Detection Engineering in CrowdStrike NG-SIEM →</a>
+    </div>
+  </div>
+
+  <a href="https://medium.com/@joe88cornell" class="button secondary" target="_blank" rel="noopener noreferrer">Read on Medium</a>
+</section>
 
     <section id="contact" class="section contact">
       <h2>Contact</h2>
       <p>Want to connect or see more of my work?</p>
       <div class="contact-links">
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
-        <a href="#">Medium</a>
+        <a href="https://github.com/joecornell-cyber/joecornell-cyber" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/joe-cornell/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://medium.com/@joe88cornell" target="_blank" rel="noopener noreferrer">Medium</a>
       </div>
     </section>
   </main>
