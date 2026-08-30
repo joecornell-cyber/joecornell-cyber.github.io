@@ -27,8 +27,10 @@
         <p class="eyebrow">Cybersecurity Analyst • Detection Engineering • Offensive Security</p>
         <h1>Building practical security detections, labs, and offensive security workflows.</h1>
         <p class="hero-text">
-          I'm a cybersecurity professional focused on detection engineering, threat hunting,
-          web application security, and hands-on offensive security research.
+    I focus on building practical security solutions that connect blue team detection
+    engineering with adversary focused testing. My work includes SIEM detection
+    development, threat hunting, Python security automation, LLM-assisted security
+    engineering, and hands on web application and internal penetration testing.
         </p>
         <div class="hero-actions">
           <a href="#projects" class="button primary">View Projects</a>
@@ -115,46 +117,82 @@
 </div>
 </section>
 
-    <section id="projects" class="section">
-      <h2>Projects</h2>
-      <div class="grid">
-        <article class="project-card">
-          <h3>Defensive Security Playbook</h3>
-          <p>
-            Detection engineering content, threat hunting queries, and SIEM analytics across
-            CrowdStrike Falcon LogScale, Splunk, and Microsoft Sentinel.
-          </p>
-          <a href="https://github.com/joecornell-cyber/detection-engineering" class="text-link" target="_blank" rel="noopener noreferrer">View Repository →</a>
-        </article>
+<section id="projects" class="section">
+  <h2>Projects</h2>
 
-        <article class="project-card">
-          <h3>Web App Pentest Playbook</h3>
-          <p>
-            Structured web application testing methodology covering enumeration, authentication,
-            API testing, SQLi, XSS, SSRF, SSTI, XXE, file upload, and reporting workflows.
-          </p>
-          <a href="https://github.com/joecornell-cyber/web-app-pentest-playbook" class="text-link" target="_blank" rel="noopener noreferrer">View Repository →</a>
-        </article>
+  <div class="grid">
 
-        <article class="project-card">
-          <h3>Internal Pentesting Playbook</h3>
-          <p>
-            Planned internal pentesting methodology focused on Active Directory enumeration,
-            privilege escalation, pivoting, credential hunting, and OSCP preparation.
-          </p>
-          <a href="https://github.com/joecornell-cyber/joecornell-cyber" class="text-link" target="_blank" rel="noopener noreferrer">View GitHub Portfolio →</a>
-        </article>
+    <article class="project-card">
+      <h3>LLM-Assisted Detection-as-Code Pipeline</h3>
+      <p>
+        End-to-end detection engineering lab integrating Splunk Enterprise, Python,
+        Ollama, and a locally hosted GPT-OSS model. Controlled Active Directory attack
+        telemetry is retrieved through the Splunk REST API and analyzed by the LLM to
+        generate candidate SPL detections that are manually reviewed, tuned, and
+        validated.
+      </p>
+      <a
+        href="https://github.com/joecornell-cyber/llm-assisted-detection-as-code-pipeline"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Repository →
+      </a>
+    </article>
 
-        <article class="project-card">
-          <h3>Security Labs</h3>
-          <p>
-            Hands-on lab work including Active Directory attack/defend workflows, Wazuh SIEM,
-            cloud security, and detection validation projects.
-          </p>
-          <a href="#" class="text-link">Coming Soon →</a>
-        </article>
-      </div>
-    </section>
+    <article class="project-card">
+      <h3>Defensive Security Playbook</h3>
+      <p>
+        Detection engineering content, threat hunting queries, and SIEM analytics across
+        CrowdStrike Falcon LogScale, Splunk, and Microsoft Sentinel.
+      </p>
+      <a
+        href="https://github.com/joecornell-cyber/defensive-security-playbook"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Repository →
+      </a>
+    </article>
+
+    <article class="project-card">
+      <h3>Web App Pentest Playbook</h3>
+      <p>
+        Structured web application testing methodology covering enumeration,
+        authentication, API testing, SQL injection, XSS, SSRF, SSTI, XXE,
+        file upload vulnerabilities, and reporting workflows.
+      </p>
+      <a
+        href="https://github.com/joecornell-cyber/web-app-pentest-playbook"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Repository →
+      </a>
+    </article>
+
+    <article class="project-card">
+      <h3>Internal Pentesting Playbook</h3>
+      <p>
+        Practical internal penetration testing methodology covering Active Directory,
+        Windows and Linux privilege escalation, credential attacks, lateral movement,
+        pivoting, tunneling, and post-exploitation workflows.
+      </p>
+      <a
+        href="https://github.com/joecornell-cyber"
+        class="text-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View GitHub →
+      </a>
+    </article>
+
+  </div>
+</section>
 
 <section id="certifications" class="section">
   <h2>Certifications</h2>
@@ -163,6 +201,13 @@
     detection engineering, security operations, and offensive security.
   </p>
   <div class="cert-grid">
+    <a href="https://certified.tcm-sec.com/f4ad3273-22fa-4d37-8668-78805b843a28#acc.TKhHE5oy" class="cert-card" target="_blank" rel="noopener noreferrer">
+  <img src="assets/img/pnpt.png" alt="PNPT badge" />
+  <h3>PNPT</h3>
+  <p>Issued by TCM Security • Aug 2026</p>
+  <p class="cert-expiry">Does not expire</p>
+  <span>View Credential →</span>
+</a>
     <a href="https://www.credly.com/earner/earned/badge/de594da1-4955-48a6-bae6-5418af030b66" class="cert-card" target="_blank" rel="noopener noreferrer">
       <img src="assets/img/cwes.png" alt="HTB CWES badge" />
       <h3>HTB CWES</h3>
